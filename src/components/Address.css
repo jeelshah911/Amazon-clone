@@ -1,0 +1,69 @@
+.container {
+    width: 100%;
+    height: fit-content;
+    max-width: 1535px;
+    margin: auto;
+    background-color: rgb(234, 237, 237);
+    position: relative;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+}
+
+.form-container {
+    border: 1px solid lightgray;
+    width: 55%;
+    min-width: 400px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    background-color: #fff;
+    margin: 0 auto;
+}
+
+.form-container button {
+    width: 40%;
+    height: 40px;
+    margin-top: 20px;
+    background-color: #ffd814;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.input-container {
+    width: 100%;
+    margin-bottom: 15px; /* Space between input fields */
+}
+
+.input-container p {
+    font-size: 17px; /* Adjusted font size */
+    font-weight: 600;
+    margin-bottom: 5px;
+    text-align: left; /* Ensure text is aligned to the left */
+}
+
+.input-container input {
+    width: 100%; /* Full width of the container */
+    height: 40px; /* Increased height for better usability */
+    padding-left: 10px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    box-sizing: border-box; /* Ensure padding is included in the width */
+    font-size: 16px;
+    transition: border-color 0.3s;
+}
+
+.input-container input:hover {
+    border-color: orange;
+}

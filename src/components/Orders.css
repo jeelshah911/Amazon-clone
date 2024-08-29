@@ -1,0 +1,100 @@
+.container {
+    width: 100%;
+    height: fit-content;
+    max-width: 1400px;
+    margin: auto;
+    background-color: rgb(234, 237, 237);
+  }
+  
+  .main {
+    min-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .order-container {
+    padding: 15px;
+    background-color: #fff;
+    width: 95%;
+  }
+  
+  .order-container h2 {
+    font-weight: 500;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 15px;
+  }
+  
+  .order-detail {
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 20px;
+  }
+  
+  .address-component {
+    margin-top: 20px;
+  }
+  
+  .address-component div {
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+  
+  .address-component p {
+    font-size: 14px;
+    margin-top: 4px;
+  }
+  
+  .order-basket {
+    margin-top: 20px;
+  }
+  
+  .order-basket p {
+    font-size: 15px;
+    margin-left: 15px;
+    margin-top: 15px;
+  }
+  
+  .order-basket span {
+    font-weight: 600;
+  }
+  
+  .product {
+    display: flex;
+    align-items: center;
+  }
+  
+  .image {
+    flex: 0.3;
+  }
+  
+  .image img {
+    width: 100%;
+  }
+  
+  .description {
+    flex: 0.7;
+  }
+  
+  .description h4 {
+    font-weight: 600;
+    font-size: 18px;
+  }
+  
+  .description p {
+    font-weight: 600;
+    margin-top: 10px;
+  }
+  
+  .description button {
+    background-color: transparent;
+    color: #1384b4;
+    border: none;
+    outline: none;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
+  .description button:hover {
+    text-decoration: underline;
+  }
+  
